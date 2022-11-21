@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="loader">
+      <div class="load"></div>
+    </div>
+    <div class="modal-container">
+      <div class="modal">
+        <h1>Thank you for your registration</h1>
+      </div>
+    </div>
+
+    <div id="sphere-container">
+      <div class="sphere"></div>
+      <div class="sphere1"></div>
+    </div>
+    <div id="container">
+      <div class="header">
+        <h1>Please Register</h1>
+      </div>
+      <hr />
+      <form>
+        <legend>Name</legend>
+        <input type="text" placeholder="Enter name" required />
+        <legend>Email</legend>
+        <input type="email" placeholder="@example" required />
+        <legend>Password</legend>
+        <input type="password" placeholder="password" required />
+        <legend>Date of registration</legend>
+        <input type="date" required />
+      </form>
+      <div class="terms">
+        <input class="box" type="checkbox" />
+        <p>I accept the terms and condition</p>
+      </div>
+
+      <button id="btn" onclick="afterLoading()">Submit</button>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
